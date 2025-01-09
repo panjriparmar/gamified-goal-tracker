@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEF8716C2D307AF800856C5D /* Gamified_Goal_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF8716B2D307AF800856C5D /* Gamified_Goal_TrackerApp.swift */; };
+		BEF8716E2D307AF800856C5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF8716D2D307AF800856C5D /* ContentView.swift */; };
+		BEF871702D307AF900856C5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF8716F2D307AF900856C5D /* Assets.xcassets */; };
+		BEF871732D307AF900856C5D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF871722D307AF900856C5D /* Preview Assets.xcassets */; };
+		BEF8717D2D307AF900856C5D /* Gamified_Goal_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF8717C2D307AF900856C5D /* Gamified_Goal_TrackerTests.swift */; };
+		BEF871872D307AF900856C5D /* Gamified_Goal_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF871862D307AF900856C5D /* Gamified_Goal_TrackerUITests.swift */; };
+		BEF871892D307AF900856C5D /* Gamified_Goal_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF871882D307AF900856C5D /* Gamified_Goal_TrackerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEF871792D307AF900856C5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEF871602D307AF800856C5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF871672D307AF800856C5D;
+			remoteInfo = "Gamified Goal Tracker";
+		};
+		BEF871832D307AF900856C5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEF871602D307AF800856C5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF871672D307AF800856C5D;
+			remoteInfo = "Gamified Goal Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEF871682D307AF800856C5D /* Gamified Goal Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gamified Goal Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF8716B2D307AF800856C5D /* Gamified_Goal_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gamified_Goal_TrackerApp.swift; sourceTree = "<group>"; };
+		BEF8716D2D307AF800856C5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BEF8716F2D307AF900856C5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEF871722D307AF900856C5D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BEF871782D307AF900856C5D /* Gamified Goal TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gamified Goal TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF8717C2D307AF900856C5D /* Gamified_Goal_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gamified_Goal_TrackerTests.swift; sourceTree = "<group>"; };
+		BEF871822D307AF900856C5D /* Gamified Goal TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gamified Goal TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF871862D307AF900856C5D /* Gamified_Goal_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gamified_Goal_TrackerUITests.swift; sourceTree = "<group>"; };
+		BEF871882D307AF900856C5D /* Gamified_Goal_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gamified_Goal_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEF871652D307AF800856C5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF871752D307AF900856C5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF8717F2D307AF900856C5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEF8715F2D307AF800856C5D = {
+			isa = PBXGroup;
+			children = (
+				BEF8716A2D307AF800856C5D /* Gamified Goal Tracker */,
+				BEF8717B2D307AF900856C5D /* Gamified Goal TrackerTests */,
+				BEF871852D307AF900856C5D /* Gamified Goal TrackerUITests */,
+				BEF871692D307AF800856C5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEF871692D307AF800856C5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEF871682D307AF800856C5D /* Gamified Goal Tracker.app */,
+				BEF871782D307AF900856C5D /* Gamified Goal TrackerTests.xctest */,
+				BEF871822D307AF900856C5D /* Gamified Goal TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEF8716A2D307AF800856C5D /* Gamified Goal Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				BEF8716B2D307AF800856C5D /* Gamified_Goal_TrackerApp.swift */,
+				BEF8716D2D307AF800856C5D /* ContentView.swift */,
+				BEF8716F2D307AF900856C5D /* Assets.xcassets */,
+				BEF871712D307AF900856C5D /* Preview Content */,
+			);
+			path = "Gamified Goal Tracker";
+			sourceTree = "<group>";
+		};
+		BEF871712D307AF900856C5D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BEF871722D307AF900856C5D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BEF8717B2D307AF900856C5D /* Gamified Goal TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEF8717C2D307AF900856C5D /* Gamified_Goal_TrackerTests.swift */,
+			);
+			path = "Gamified Goal TrackerTests";
+			sourceTree = "<group>";
+		};
+		BEF871852D307AF900856C5D /* Gamified Goal TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEF871862D307AF900856C5D /* Gamified_Goal_TrackerUITests.swift */,
+				BEF871882D307AF900856C5D /* Gamified_Goal_TrackerUITestsLaunchTests.swift */,
+			);
+			path = "Gamified Goal TrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEF871672D307AF800856C5D /* Gamified Goal Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF8718C2D307AF900856C5D /* Build configuration list for PBXNativeTarget "Gamified Goal Tracker" */;
+			buildPhases = (
+				BEF871642D307AF800856C5D /* Sources */,
+				BEF871652D307AF800856C5D /* Frameworks */,
+				BEF871662D307AF800856C5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gamified Goal Tracker";
+			productName = "Gamified Goal Tracker";
+			productReference = BEF871682D307AF800856C5D /* Gamified Goal Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEF871772D307AF900856C5D /* Gamified Goal TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF8718F2D307AF900856C5D /* Build configuration list for PBXNativeTarget "Gamified Goal TrackerTests" */;
+			buildPhases = (
+				BEF871742D307AF900856C5D /* Sources */,
+				BEF871752D307AF900856C5D /* Frameworks */,
+				BEF871762D307AF900856C5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEF8717A2D307AF900856C5D /* PBXTargetDependency */,
+			);
+			name = "Gamified Goal TrackerTests";
+			productName = "Gamified Goal TrackerTests";
+			productReference = BEF871782D307AF900856C5D /* Gamified Goal TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEF871812D307AF900856C5D /* Gamified Goal TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF871922D307AF900856C5D /* Build configuration list for PBXNativeTarget "Gamified Goal TrackerUITests" */;
+			buildPhases = (
+				BEF8717E2D307AF900856C5D /* Sources */,
+				BEF8717F2D307AF900856C5D /* Frameworks */,
+				BEF871802D307AF900856C5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEF871842D307AF900856C5D /* PBXTargetDependency */,
+			);
+			name = "Gamified Goal TrackerUITests";
+			productName = "Gamified Goal TrackerUITests";
+			productReference = BEF871822D307AF900856C5D /* Gamified Goal TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEF871602D307AF800856C5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BEF871672D307AF800856C5D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					BEF871772D307AF900856C5D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BEF871672D307AF800856C5D;
+					};
+					BEF871812D307AF900856C5D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BEF871672D307AF800856C5D;
+					};
+				};
+			};
+			buildConfigurationList = BEF871632D307AF800856C5D /* Build configuration list for PBXProject "Gamified Goal Tracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEF8715F2D307AF800856C5D;
+			productRefGroup = BEF871692D307AF800856C5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEF871672D307AF800856C5D /* Gamified Goal Tracker */,
+				BEF871772D307AF900856C5D /* Gamified Goal TrackerTests */,
+				BEF871812D307AF900856C5D /* Gamified Goal TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEF871662D307AF800856C5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF871732D307AF900856C5D /* Preview Assets.xcassets in Resources */,
+				BEF871702D307AF900856C5D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF871762D307AF900856C5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF871802D307AF900856C5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEF871642D307AF800856C5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF8716E2D307AF800856C5D /* ContentView.swift in Sources */,
+				BEF8716C2D307AF800856C5D /* Gamified_Goal_TrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF871742D307AF900856C5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF8717D2D307AF900856C5D /* Gamified_Goal_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF8717E2D307AF900856C5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF871892D307AF900856C5D /* Gamified_Goal_TrackerUITestsLaunchTests.swift in Sources */,
+				BEF871872D307AF900856C5D /* Gamified_Goal_TrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEF8717A2D307AF900856C5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEF871672D307AF800856C5D /* Gamified Goal Tracker */;
+			targetProxy = BEF871792D307AF900856C5D /* PBXContainerItemProxy */;
+		};
+		BEF871842D307AF900856C5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEF871672D307AF800856C5D /* Gamified Goal Tracker */;
+			targetProxy = BEF871832D307AF900856C5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BEF8718A2D307AF900856C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEF8718B2D307AF900856C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEF8718D2D307AF900856C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gamified Goal Tracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Panjri-Parmar.Gamified-Goal-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEF8718E2D307AF900856C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gamified Goal Tracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Panjri-Parmar.Gamified-Goal-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BEF871902D307AF900856C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Panjri-Parmar.Gamified-Goal-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gamified Goal Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gamified Goal Tracker";
+			};
+			name = Debug;
+		};
+		BEF871912D307AF900856C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Panjri-Parmar.Gamified-Goal-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gamified Goal Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gamified Goal Tracker";
+			};
+			name = Release;
+		};
+		BEF871932D307AF900856C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Panjri-Parmar.Gamified-Goal-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gamified Goal Tracker";
+			};
+			name = Debug;
+		};
+		BEF871942D307AF900856C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Panjri-Parmar.Gamified-Goal-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gamified Goal Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEF871632D307AF800856C5D /* Build configuration list for PBXProject "Gamified Goal Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF8718A2D307AF900856C5D /* Debug */,
+				BEF8718B2D307AF900856C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF8718C2D307AF900856C5D /* Build configuration list for PBXNativeTarget "Gamified Goal Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF8718D2D307AF900856C5D /* Debug */,
+				BEF8718E2D307AF900856C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF8718F2D307AF900856C5D /* Build configuration list for PBXNativeTarget "Gamified Goal TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF871902D307AF900856C5D /* Debug */,
+				BEF871912D307AF900856C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF871922D307AF900856C5D /* Build configuration list for PBXNativeTarget "Gamified Goal TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF871932D307AF900856C5D /* Debug */,
+				BEF871942D307AF900856C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEF871602D307AF800856C5D /* Project object */;
+}
